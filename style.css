@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+}
+
+.left{
+    width:23%;
+    padding-left: 20px;
+    height: 100vh;
+    background-color: aliceblue;
+    padding: 5px;
+    border-right: 2px solid grey;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.button{
+width:100%;
+height: 30px;
+padding: 0px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-bottom: 2px solid gray;
+}
+button{
+    background-color: rgb(54, 123, 184);
+    color: white;
+    font-weight: 600;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+button:hover{
+    border: 2px solid black;
+    background-color: rgb(36, 82, 122);
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0);
+    transition: background-color 300ms linear;
+    transition: border 300ms linear;
+    transition: box-shadow 300ms linear;
+}
+.note{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 99%;
+    word-break: break-all;
+    height:175px;
+    background-color: rgba(154, 182, 206, 0.397);
+    margin: 2px;
+    border: 2px solid rgb(15, 96, 167);
+}
+.text{
+    margin: 10px;
+    height: 30px;
+    overflow-y: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.title p{
+word-break: break-all;
+height: 20px;
+overflow-y:hidden;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: aliceblue;
+text-shadow: 2px 2px 2px black;
+}
+.mais{
+    margin: 7px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.note span{
+    width: 0%;
+    margin-left: 100px;
+    color: red;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#open{    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 99%;
+    height:auto;
+    background-color: rgba(154, 182, 206, 0.397);
+    margin: 2px;
+}
+.open span{
+    width: 0%;
+    margin-left: 100px;
+    color: red;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.textopen{
+    height: auto;
+    overflow-y: visible;
+    word-break: break-all;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+.notes{
+    width: 75%;
+    height: 100vh;
+}
+
+#titulo{
+    margin-left: 2px;
+    margin-top: 05px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.date{
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+#data{
+    margin-left: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+#texto{
+    
+    margin-left: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 60vh;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+    color: rgb(114, 179, 236);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.609);
+}
